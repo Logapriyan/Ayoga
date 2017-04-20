@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/orange"
+    tools:context="logan.com.spinner.Main8Activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Massage for the body is a popular beauty treatment, with various techniques offering benefits to the skin (including the application of beauty products) and for increasing mental well-being.\n\nBeauty salons have proven to be a recession-proof industry in the United States. Although sales had declined from 2008 highs, they remain robust with long term positive forecast.\n\nThe market is distributed widely across America, with a concentration in the Northeast and Midwest. The US Labor Department estimates employment in the United States will increase 20% between 2008–2014, with greatest employment growth from skin care specialists.\n\nSpecialized beauty salons known as nail salons offer treatments such as manicures and pedicures for the nails."
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="KNOW ABOUT US..."
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="23dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/home"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

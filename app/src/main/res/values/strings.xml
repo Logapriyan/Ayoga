@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="FACIAL">
+        <item>FACIAL</item>
+        <item>EYE THREAD</item>
+        <item>BLEECH</item>
+        <item>HAIR CUT</item>
+        <item>EYE COLOUR</item>
+    </string-array>
+
+</resources>
+
